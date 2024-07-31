@@ -42,7 +42,7 @@ jobs:
 
       # Build the jupyter-book
       - name: Build the jupyter-book
-        run: poetry run jupyter-book build .
+        run: poetry run jupyter-book build docs
 
       # Upload the jupyter-book's HTML as an artifact
       - name: Upload artifact
