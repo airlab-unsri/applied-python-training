@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 jupyter-book = "^1.0.2"
+sphinx-autobuild = "^2024.4.16"
 
 
 [build-system]

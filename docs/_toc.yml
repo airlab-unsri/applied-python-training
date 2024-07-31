@@ -3,7 +3,37 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Python
+    chapters:
+      - file: python_fundamentals/python_fundamentals
+  - caption: NumPy
+    chapters:
+      - file: numpy/numpy
+  - caption: Pandas
+    chapters:
+      - file: pandas/pandas
+  - caption: Matplotlib
+    chapters:
+      - file: matplotlib/matplotlib
+  - caption: TensorFlow
+    chapters:
+      - file: tensorflow/tensorflow
+  - caption: Data Science
+    chapters:
+      - file: data_science/intro_to_data_science
+  - caption: Data Visualization
+    chapters:
+      - file: data_visualization/visualizing_quantities
+      - file: data_visualization/visualizing_distribution
+      - file: data_visualization/visualizing_proportions
+      - file: data_visualization/visualizing_relationships
+  - caption: Data Preprocessing
+    chapters:
+      - file: data_preprocessing/numerical_data_preprocessing
+  - caption: Machine Learning
+    chapters:
+      - file: machine_learning/intro_to_machine_learning
+  - caption: LLM
+    chapters:
+      - file: llm/intro_to_llm
