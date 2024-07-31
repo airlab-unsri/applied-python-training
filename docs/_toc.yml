@@ -12,7 +12,14 @@ parts:
           - file: getting_started/setup_ide/setup_vscode
   - caption: Python
     chapters:
-      - file: python_fundamentals/python_fundamentals
+      - file: python/python_fundamentals/index
+        sections:
+          - file: python/python_fundamentals/variables_data_types
+          - file: python/python_fundamentals/operators
+          - file: python/python_fundamentals/conditional_statements
+          - file: python/python_fundamentals/loops
+          - file: python/python_fundamentals/functions
+          - file: python/python_fundamentals/modules_packages
   - caption: NumPy
     chapters:
       - file: numpy/numpy

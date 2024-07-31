@@ -9,6 +9,10 @@ readme = "README.md"
 python = "^3.12"
 jupyter-book = "^1.0.2"
 sphinx-autobuild = "^2024.4.16"
+jupyterlab = "^4.2.4"
+black = "^24.4.2"
+isort = "^5.13.2"
+jupyterlab-code-formatter = "^3.0.0"
 
 
 [build-system]

@@ -3,13 +3,13 @@
 
 title: Applied Python Training
 author: Arief Rahmansyah
-copyright: "2024"
+copyright: 2024
 logo: images/logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: cache
+  execute_notebooks: off
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -19,6 +19,9 @@ latex:
 # Add a bibtex file so that we can create citations
 # bibtex_bibfiles:
 #   - references.bib
+
+launch_buttons:
+  colab_url: https://colab.research.google.com
 
 # Information about where the book exists on the web
 repository:
