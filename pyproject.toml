@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "applied-python-training"
+version = "0.1.0"
+description = ""
+authors = ["Arief Rahmansyah <ariefrahmansyah@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter-book = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,56 @@
+name: deploy-docs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - docs/**
+
+# This job installs dependencies, builds the jupyter-book, and pushes it to `gh-pages`
+jobs:
+  deploy-docs:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install dependencies
+      - name: Install poetry
+        run: pipx install poetry
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+          cache: poetry
+
+      - name: Install dependencies
+        run: poetry install
+
+      # (optional) Cache your executed notebooks between runs
+      # if you have config:
+      # execute:
+      #   execute_notebooks: cache
+      - name: Cache executed notebooks
+        uses: actions/cache@v4
+        with:
+          path: docs/_build/.jupyter_cache
+          key: jupyter-book-cache-${{ hashFiles('poetry.lock') }}
+
+      # Build the jupyter-book
+      - name: Build the jupyter-book
+        run: poetry run jupyter-book build .
+
+      # Upload the jupyter-book's HTML as an artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: "docs/_build/html"
+
+      # Deploy the jupyter-book's HTML to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
