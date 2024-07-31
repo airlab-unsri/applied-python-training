@@ -4,6 +4,12 @@
 format: jb-book
 root: intro
 parts:
+  - caption: Getting Started
+    chapters:
+      - file: getting_started/setup_python
+      - file: getting_started/setup_ide/index
+        sections:
+          - file: getting_started/setup_ide/setup_vscode
   - caption: Python
     chapters:
       - file: python_fundamentals/python_fundamentals
