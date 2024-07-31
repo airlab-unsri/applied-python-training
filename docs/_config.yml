@@ -35,3 +35,7 @@ html:
   use_edit_page_button: true
   use_issues_button: true
   use_repository_button: true
+
+sphinx:
+  config:
+    html_show_copyright: false
