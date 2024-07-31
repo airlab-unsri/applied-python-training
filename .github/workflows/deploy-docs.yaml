@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - docs/**
+      - .github/workflows/deploy-docs.yaml
 
 # This job installs dependencies, builds the jupyter-book, and pushes it to `gh-pages`
 jobs:
