@@ -3,7 +3,6 @@
 
 title: Applied Python Training
 author: AIRLab Unsri
-copyright: 2024
 logo: images/logo.png
 
 # Force re-execution of notebooks on each build.

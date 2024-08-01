@@ -50,3 +50,11 @@ parts:
   - caption: LLM
     chapters:
       - file: llm/intro_to_llm
+  - caption: Tutorials
+    chapters:
+      - file: tutorials/calculator
+      - file: tutorials/student_grade
+      - file: tutorials/house_price_prediction
+      - file: tutorials/iris_classification
+      - file: tutorials/number_classification
+      - file: tutorials/openai_api
