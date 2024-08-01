@@ -22,7 +22,9 @@ parts:
           - file: python/python_fundamentals/modules_packages
   - caption: NumPy
     chapters:
-      - file: numpy/numpy
+      - file: numpy/intro_to_numpy
+      - file: numpy/numpy_quickstart
+      - file: numpy/numpy_fundamentals
   - caption: Pandas
     chapters:
       - file: pandas/pandas
