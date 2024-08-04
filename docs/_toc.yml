@@ -32,10 +32,6 @@ parts:
     chapters:
       - file: pandas/intro_to_pandas
 
-  - caption: Matplotlib
-    chapters:
-      - file: matplotlib/intro_to_matplotlib
-
   - caption: TensorFlow
     chapters:
       - file: tensorflow/tensorflow
@@ -46,8 +42,9 @@ parts:
 
   - caption: Data Visualization
     chapters:
+      - file: data_visualization/intro_to_matplotlib
       - file: data_visualization/visualizing_quantities
-      - file: data_visualization/visualizing_distribution
+      - file: data_visualization/visualizing_distributions
       - file: data_visualization/visualizing_proportions
       - file: data_visualization/visualizing_relationships
 

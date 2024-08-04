@@ -15,6 +15,9 @@ isort = "^5.13.2"
 jupyterlab-code-formatter = "^3.0.0"
 matplotlib = "^3.9.1"
 tensorflow = "^2.17.0"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+pywaffle = "^1.1.1"
 
 
 [build-system]
