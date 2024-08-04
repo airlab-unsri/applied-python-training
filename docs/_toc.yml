@@ -10,6 +10,7 @@ parts:
       - file: getting_started/setup_ide/index
         sections:
           - file: getting_started/setup_ide/setup_vscode
+
   - caption: Python
     chapters:
       - file: python/python_fundamentals/index
@@ -20,38 +21,48 @@ parts:
           - file: python/python_fundamentals/loops
           - file: python/python_fundamentals/functions
           - file: python/python_fundamentals/modules_packages
+
   - caption: NumPy
     chapters:
       - file: numpy/intro_to_numpy
       - file: numpy/numpy_quickstart
       - file: numpy/numpy_fundamentals
+
   - caption: Pandas
     chapters:
-      - file: pandas/pandas
+      - file: pandas/intro_to_pandas
+
   - caption: Matplotlib
     chapters:
-      - file: matplotlib/matplotlib
+      - file: matplotlib/intro_to_matplotlib
+
   - caption: TensorFlow
     chapters:
       - file: tensorflow/tensorflow
+
   - caption: Data Science
     chapters:
       - file: data_science/intro_to_data_science
+
   - caption: Data Visualization
     chapters:
       - file: data_visualization/visualizing_quantities
       - file: data_visualization/visualizing_distribution
       - file: data_visualization/visualizing_proportions
       - file: data_visualization/visualizing_relationships
+
   - caption: Data Preprocessing
     chapters:
       - file: data_preprocessing/numerical_data_preprocessing
+
   - caption: Machine Learning
     chapters:
       - file: machine_learning/intro_to_machine_learning
+
   - caption: LLM
     chapters:
       - file: llm/intro_to_llm
+
   - caption: Tutorials
     chapters:
       - file: tutorials/calculator

@@ -10,7 +10,7 @@ Selamat belajar! 🚀
 
 ## Tentang Dokumentasi Ini
 
-Dokumentasi ini ditulis menggunakan [jupyter-book](https://jupyterbook.org/), salah satu open-source tool yang ditulis menggunakan bahasa Python untuk membuat buku digital yang berkualitas tinggi. Kamu bisa berkontribusi pada dokumentasi ini dengan cara melakukan pull request pada repositori [GitHub](https://github.com/airlab-unsri/applied-python-training) atau dengan meng-klik tombol GitHub pada pojok kanan di setiap halaman.
+Dokumentasi ini ditulis menggunakan [Jupyter Book](https://jupyterbook.org/), salah satu open-source tool yang ditulis menggunakan bahasa Python untuk membuat buku digital yang berkualitas tinggi. Kamu bisa berkontribusi pada dokumentasi ini dengan cara melakukan pull request pada repositori [GitHub](https://github.com/airlab-unsri/applied-python-training) atau dengan meng-klik tombol GitHub pada pojok kanan di setiap halaman.
 
 ### Cara Menggunakan Dokumentasi Ini
 
