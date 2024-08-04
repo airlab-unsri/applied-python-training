@@ -22,21 +22,6 @@ parts:
           - file: python/python_fundamentals/functions
           - file: python/python_fundamentals/modules_packages
 
-  - caption: NumPy
-    chapters:
-      - file: numpy/intro_to_numpy
-      - file: numpy/numpy_quickstart
-      - file: numpy/numpy_fundamentals
-
-  - caption: Pandas
-    chapters:
-      - file: pandas/intro_to_pandas
-
-  - caption: TensorFlow
-    chapters:
-      - file: tensorflow/intro_to_tensorflow
-      - file: tensorflow/intro_to_tensors
-
   - caption: Data Science
     chapters:
       - file: data_science/intro_to_data_science
@@ -60,6 +45,22 @@ parts:
   - caption: LLM
     chapters:
       - file: llm/intro_to_llm
+
+  - caption: NumPy
+    chapters:
+      - file: numpy/intro_to_numpy
+      - file: numpy/numpy_quickstart
+      - file: numpy/numpy_fundamentals
+
+  - caption: Pandas
+    chapters:
+      - file: pandas/intro_to_pandas
+
+  - caption: TensorFlow
+    chapters:
+      - file: tensorflow/intro_to_tensorflow
+      - file: tensorflow/intro_to_tensors
+      - file: tensorflow/neural_network_regression_in_tensorflow
 
   - caption: Tutorials
     chapters:
