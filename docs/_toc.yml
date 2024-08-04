@@ -34,7 +34,8 @@ parts:
 
   - caption: TensorFlow
     chapters:
-      - file: tensorflow/tensorflow
+      - file: tensorflow/intro_to_tensorflow
+      - file: tensorflow/intro_to_tensors
 
   - caption: Data Science
     chapters:

@@ -4,6 +4,8 @@ IDE atau Integrated Development Environment adalah sebuah aplikasi yang digunaka
 
 Kami merekomendasikan Visual Studio Code sebagai IDE yang digunakan untuk mengikuti training ini. Visual Studio Code adalah IDE yang ringan, cepat, dan memiliki banyak ekstensi yang dapat membantu dalam menulis kode Python.
 
+---
+
 ```{tableofcontents}
 
 ```
