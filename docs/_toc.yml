@@ -23,7 +23,7 @@ parts:
         sections:
           - file: python/python_fundamentals/variables_data_types
           - file: python/python_fundamentals/operators
-          - file: python/python_fundamentals/conditional_statements
+          - file: python/python_fundamentals/conditionals
           - file: python/python_fundamentals/loops
           - file: python/python_fundamentals/functions
           - file: python/python_fundamentals/modules_packages
