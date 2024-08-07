@@ -21,7 +21,10 @@ parts:
     chapters:
       - file: python/python_fundamentals/index
         sections:
-          - file: python/python_fundamentals/variables_data_types
+          - file: python/python_fundamentals/variables
+          - file: python/python_fundamentals/data_types
+            sections:
+              - file: python/python_fundamentals/strings
           - file: python/python_fundamentals/operators
           - file: python/python_fundamentals/conditionals
           - file: python/python_fundamentals/loops
