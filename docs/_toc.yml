@@ -6,10 +6,16 @@ root: intro
 parts:
   - caption: Getting Started
     chapters:
-      - file: getting_started/setup_python
+      - file: getting_started/setup_python/index
+        sections:
+          - file: getting_started/setup_python/setup_pipx
+          - file: getting_started/setup_python/setup_poetry
+          - file: getting_started/setup_python/setup_jupyter_lab
       - file: getting_started/setup_ide/index
         sections:
           - file: getting_started/setup_ide/setup_vscode
+      - file: getting_started/setup_wsl
+      - file: getting_started/setup_git
 
   - caption: Python
     chapters:
@@ -21,6 +27,7 @@ parts:
           - file: python/python_fundamentals/loops
           - file: python/python_fundamentals/functions
           - file: python/python_fundamentals/modules_packages
+      - file: python/oop/index
 
   - caption: Data Science
     chapters:
