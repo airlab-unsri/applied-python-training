@@ -28,6 +28,7 @@ parts:
               - file: python/python_fundamentals/lists
               - file: python/python_fundamentals/tuples
               - file: python/python_fundamentals/sets
+              - file: python/python_fundamentals/dictionaries
           - file: python/python_fundamentals/operators
           - file: python/python_fundamentals/conditionals
           - file: python/python_fundamentals/loops
