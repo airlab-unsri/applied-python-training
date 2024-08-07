@@ -19,22 +19,29 @@ parts:
 
   - caption: Python
     chapters:
-      - file: python/python_fundamentals/index
+      - file: python/python_fundamentals_1/index
         sections:
-          - file: python/python_fundamentals/variables
-          - file: python/python_fundamentals/data_types
+          - file: python/python_fundamentals_1/variables
+          - file: python/python_fundamentals_1/data_types
             sections:
-              - file: python/python_fundamentals/strings
-              - file: python/python_fundamentals/lists
-              - file: python/python_fundamentals/tuples
-              - file: python/python_fundamentals/sets
-              - file: python/python_fundamentals/dictionaries
-          - file: python/python_fundamentals/operators
-          - file: python/python_fundamentals/conditionals
-          - file: python/python_fundamentals/loops
-          - file: python/python_fundamentals/functions
-          - file: python/python_fundamentals/modules_packages
+              - file: python/python_fundamentals_1/strings
+              - file: python/python_fundamentals_1/lists
+              - file: python/python_fundamentals_1/tuples
+              - file: python/python_fundamentals_1/sets
+              - file: python/python_fundamentals_1/dictionaries
+          - file: python/python_fundamentals_1/operators
+          - file: python/python_fundamentals_1/conditionals
+          - file: python/python_fundamentals_1/loops
+          - file: python/python_fundamentals_1/functions
+          - file: python/python_fundamentals_1/modules_packages
+      - file: python/python_fundamentals_2/index
+        sections:
+          - file: python/python_fundamentals_2/list_comprehensions
       - file: python/oop/index
+        sections:
+          - file: python/oop/classes
+          - file: python/oop/inheritance
+          - file: python/oop/polymorphism
 
   - caption: Data Science
     chapters:
