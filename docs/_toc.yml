@@ -87,6 +87,7 @@ parts:
     chapters:
       - file: tutorials/calculator
       - file: tutorials/student_grade_with_oo
+      - file: tutorials/analyzing_ai_wiki_page
       - file: tutorials/hello_world_machine_learning
       - file: tutorials/house_price_prediction
       - file: tutorials/iris_classification
