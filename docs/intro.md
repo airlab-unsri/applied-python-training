@@ -6,6 +6,8 @@ Pada pelatihan penerapan Python ini, kamu akan belajar bagaimana menggunakan Pyt
 
 Kamu akan belajar bagaimana menggunakan Python untuk melakukan analisis data, visualisasi data, dan membuat model machine learning. Kamu juga akan belajar bagaimana mem-publish aplikasi Python kamu. Training ini akan membekali kamu dengan skills yang diperlukan untuk menjadi seorang data scientist atau software engineer yang handal.
 
+![Mind Map](./images/mindmap_training.png)
+
 Selamat belajar! 🚀
 
 ## Tentang Dokumentasi Ini
