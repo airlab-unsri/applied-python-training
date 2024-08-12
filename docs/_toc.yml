@@ -21,6 +21,7 @@ parts:
     chapters:
       - file: python/python_fundamentals_1/index
         sections:
+          - file: python/python_fundamentals_1/hello_world
           - file: python/python_fundamentals_1/variables
           - file: python/python_fundamentals_1/data_types
             sections:
@@ -36,7 +37,8 @@ parts:
           - file: python/python_fundamentals_1/modules_packages
       - file: python/python_fundamentals_2/index
         sections:
-          - file: python/python_fundamentals_2/list_comprehensions
+          - file: python/python_fundamentals_2/list_comprehension
+          - file: python/python_fundamentals_2/higher_order_functions
       - file: python/oop/index
         sections:
           - file: python/oop/classes
