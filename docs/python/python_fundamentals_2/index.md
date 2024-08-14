@@ -1,4 +1,4 @@
-# 🚧 Python Fundamentals 2
+# Python Fundamentals 2
 
 **In this chapter, you’ll learn about:**
 

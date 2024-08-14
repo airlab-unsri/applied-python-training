@@ -50,11 +50,13 @@ parts:
         sections:
           - file: python/python_fundamentals_2/list_comprehension
           - file: python/python_fundamentals_2/higher_order_functions
+          - file: python/python_fundamentals_2/file_handling
       - file: python/oop/index
         sections:
           - file: python/oop/classes
           - file: python/oop/inheritance
           - file: python/oop/polymorphism
+          - file: python/oop/oop_exercises
 
   - caption: NumPy
     chapters:
