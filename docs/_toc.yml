@@ -61,8 +61,7 @@ parts:
   - caption: NumPy
     chapters:
       - file: numpy/intro_to_numpy
-      - file: numpy/numpy_quickstart
-      - file: numpy/numpy_fundamentals
+      - file: numpy/visual_intro_to_numpy
 
   - caption: Pandas
     chapters:
