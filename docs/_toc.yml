@@ -62,10 +62,12 @@ parts:
     chapters:
       - file: numpy/intro_to_numpy
       - file: numpy/visual_intro_to_numpy
+      - file: numpy/numpy_exercises
 
   - caption: Pandas
     chapters:
       - file: pandas/intro_to_pandas
+      - file: pandas/visual_intro_to_pandas
 
   - caption: TensorFlow
     chapters:
