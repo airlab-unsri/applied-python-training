@@ -68,6 +68,7 @@ parts:
     chapters:
       - file: pandas/intro_to_pandas
       - file: pandas/visual_intro_to_pandas
+      - file: pandas/pandas_exercises
 
   - caption: TensorFlow
     chapters:
