@@ -79,6 +79,8 @@ parts:
   - caption: Data Science
     chapters:
       - file: data_science/intro_to_data_science
+      - file: data_science/ds_lifecycle
+      - file: data_science/eda
 
   - caption: Data Visualization
     chapters:
@@ -99,3 +101,7 @@ parts:
   - caption: LLM
     chapters:
       - file: llm/intro_to_llm
+
+  - caption: Reference
+    chapters:
+      - file: reference/ai_domains
