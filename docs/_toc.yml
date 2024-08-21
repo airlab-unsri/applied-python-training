@@ -92,7 +92,9 @@ parts:
 
   - caption: Data Preprocessing
     chapters:
-      - file: data_preprocessing/numerical_data_preprocessing
+      - file: data_preprocessing/text_preprocessing
+      - file: data_preprocessing/number_preprocessing
+      - file: data_preprocessing/image_preprocessing
 
   - caption: Machine Learning
     chapters:

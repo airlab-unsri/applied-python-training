@@ -281,3 +281,6 @@ $RECYCLE.BIN/
 
 # Docs
 docs/_build/
+
+# Big datasets
+data/image_preprocessing_dataset
