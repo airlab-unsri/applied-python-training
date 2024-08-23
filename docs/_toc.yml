@@ -99,6 +99,14 @@ parts:
   - caption: Machine Learning
     chapters:
       - file: machine_learning/intro_to_machine_learning
+      - file: machine_learning/supervised_learning/index
+        sections:
+          - file: machine_learning/supervised_learning/linear_regression_with_sklearn
+          - file: machine_learning/supervised_learning/linear_regression_with_tensorflow
+          - file: machine_learning/supervised_learning/svm
+      - file: machine_learning/unsupervised_learning/index
+        sections:
+          - file: machine_learning/unsupervised_learning/k_means_clustering
 
   - caption: LLM
     chapters:
