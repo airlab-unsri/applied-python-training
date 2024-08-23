@@ -24,7 +24,6 @@ parts:
       - file: tutorials/analyzing_ai_wiki_page
       - file: tutorials/hello_world_machine_learning
       - file: tutorials/house_price_prediction
-      - file: tutorials/iris_classification
       - file: tutorials/number_classification
       - file: tutorials/openai_api
 
