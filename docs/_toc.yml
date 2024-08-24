@@ -74,6 +74,7 @@ parts:
       - file: tensorflow/intro_to_tensorflow
       - file: tensorflow/intro_to_tensors
       - file: tensorflow/neural_network_regression_in_tensorflow
+      - file: tensorflow/tensorboard
 
   - caption: Data Science
     chapters:
