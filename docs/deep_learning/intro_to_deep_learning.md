@@ -29,10 +29,14 @@ Early models of neuron were described in the classical paper A logical calculus 
 ## Free Deep Learning Books
 
 1. [Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](https://www.deeplearningbook.org/)
-2. [Neural Networks and Deep Learning by Michael Nielsen](http://neuralnetworksanddeeplearning.com/)
+1. [Neural Networks and Deep Learning by Michael Nielsen](http://neuralnetworksanddeeplearning.com/)
 
 ## Learn Deep Learning Visually
 
 1. [Neural Networks from Scratch](https://aegeorge42.github.io/)
-2. [TensorFlow Playground](https://playground.tensorflow.org/)
-3. [A Visual and Interactive Guide to the Basics of Neural Networks](https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
+1. [TensorFlow Playground](https://playground.tensorflow.org/)
+1. [A Visual and Interactive Guide to the Basics of Neural Networks](https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
+1. [Neural Network Seris by 3Blue1Brown](https://www.3blue1brown.com/topics/neural-networks)
+1. Back propagation visualization:
+   a. [Backprop Explainer](https://xnought.github.io/backprop-explainer/)
+   a. [Backpropagation Step by Step](https://hmkcode.com/ai/backpropagation-step-by-step/)
