@@ -23,7 +23,6 @@ parts:
       - file: tutorials/student_grade_with_oo
       - file: tutorials/analyzing_ai_wiki_page
       - file: tutorials/hello_world_machine_learning
-      - file: tutorials/house_price_prediction
       - file: tutorials/number_classification
       - file: tutorials/openai_api
 
@@ -73,7 +72,6 @@ parts:
     chapters:
       - file: tensorflow/intro_to_tensorflow
       - file: tensorflow/intro_to_tensors
-      - file: tensorflow/neural_network_regression_in_tensorflow
       - file: tensorflow/tensorboard
 
   - caption: Data Science
@@ -107,6 +105,10 @@ parts:
       - file: machine_learning/unsupervised_learning/index
         sections:
           - file: machine_learning/unsupervised_learning/k_means_clustering
+
+  - caption: Deep Learning
+    chapters:
+      - file: deep_learning/intro_to_deep_learning
 
   - caption: LLM
     chapters:
