@@ -1627,6 +1627,30 @@ packaging = "*"
 rich = "*"
 
 [[package]]
+name = "keras-tuner"
+version = "1.4.7"
+description = "A Hyperparameter Tuning Library for Keras"
+optional = false
+python-versions = "*"
+files = [
+    {file = "keras-tuner-1.4.7.tar.gz", hash = "sha256:6befd25ee81476e6207d8ca7ed7dc674b8194437cfa0b127294cd00da905ff22"},
+    {file = "keras_tuner-1.4.7-py3-none-any.whl", hash = "sha256:0bcf0220eccc74e7a6a9bd7c8e58531a1af8515019e6bc2dc495833155c07fe2"},
+]
+
+[package.dependencies]
+keras = "*"
+kt-legacy = "*"
+packaging = "*"
+requests = "*"
+
+[package.extras]
+bayesian = ["scikit-learn", "scipy"]
+build = ["build", "namex", "tensorflow-cpu"]
+tensorflow = ["tensorflow (>=2.0)"]
+tensorflow-cpu = ["tensorflow-cpu (>=2.0)"]
+tests = ["black", "flake8", "ipython", "isort", "namex", "pandas", "portpicker", "pytest", "pytest-cov", "pytest-xdist", "scikit-learn", "scipy"]
+
+[[package]]
 name = "kiwisolver"
 version = "1.4.5"
 description = "A fast implementation of the Cassowary constraint solver"
@@ -1737,6 +1761,17 @@ files = [
     {file = "kiwisolver-1.4.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:210ef2c3a1f03272649aff1ef992df2e724748918c4bc2d5a90352849eb40bea"},
     {file = "kiwisolver-1.4.5-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:11d011a7574eb3b82bcc9c1a1d35c1d7075677fdd15de527d91b46bd35e935ee"},
     {file = "kiwisolver-1.4.5.tar.gz", hash = "sha256:e57e563a57fb22a142da34f38acc2fc1a5c864bc29ca1517a88abc963e60d6ec"},
+]
+
+[[package]]
+name = "kt-legacy"
+version = "1.0.5"
+description = "Legacy import names for Keras Tuner"
+optional = false
+python-versions = "*"
+files = [
+    {file = "kt-legacy-1.0.5.tar.gz", hash = "sha256:dbbade58f12c6a6da6062f4b045a6395a8d4195815e3e064bc3e609b69c8a26c"},
+    {file = "kt_legacy-1.0.5-py3-none-any.whl", hash = "sha256:8d5c5b3dccf348367fe9ca5b006e7ad2d1babcce62976cfc199e831ea699dcd3"},
 ]
 
 [[package]]
@@ -4991,4 +5026,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "ed7c67f1a3000c96536df6568c55b990ecb8de84e119628745456f83a7a3f243"
+content-hash = "9f45e872798dbe6194f27e3c998d90385fc956766566e4bff5b031c97450e261"

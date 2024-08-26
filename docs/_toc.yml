@@ -109,6 +109,8 @@ parts:
   - caption: Deep Learning
     chapters:
       - file: deep_learning/intro_to_deep_learning
+      - file: deep_learning/keras_tuner
+      - file: deep_learning/transfer_learning
 
   - caption: LLM
     chapters:
