@@ -113,9 +113,11 @@ parts:
       - file: deep_learning/keras_tuner
       - file: deep_learning/transfer_learning
 
-  - caption: LLM
+  - caption: Generative AI
     chapters:
-      - file: llm/intro_to_llm
+      - file: gen_ai/intro_to_gen_ai
+      - file: gen_ai/intro_to_llm
+      - file: gen_ai/local_llms
 
   - caption: Reference
     chapters:

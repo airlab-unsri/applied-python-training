@@ -27,6 +27,15 @@ tensorboard = "^2.17.1"
 tensorflow = "^2.17.0"
 wordcloud = "^1.9.3"
 keras-tuner = "^1.4.7"
+phidata = "^2.4.29"
+streamlit = "^1.37.1"
+duckduckgo-search = "^6.2.11"
+openai = "^1.42.0"
+pydantic = "^2.8.2"
+ollama = "^0.3.2"
+langchain = "^0.2.14"
+langchain-community = "^0.2.12"
+chromadb = "^0.5.5"
 
 
 [build-system]
