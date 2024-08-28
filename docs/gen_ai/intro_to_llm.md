@@ -15,6 +15,7 @@ Learn more about LLM concepts here:
 1. [Transformer Explainer](https://poloclub.github.io/transformer-explainer/)
 1. [What Is ChatGPT Doing … and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 1. [Jay Alammar's blog](https://jalammar.github.io/)
+   1. [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec/)
    1. [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
    1. [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
    1. [The Illustrated GPT-2 (Visualizing Transformer Language Models)](https://jalammar.github.io/illustrated-gpt2/)
