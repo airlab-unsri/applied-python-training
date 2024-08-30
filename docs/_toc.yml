@@ -119,6 +119,12 @@ parts:
       - file: gen_ai/intro_to_llm
       - file: gen_ai/local_llms
 
+  - caption: Deployment
+    chapters:
+      - file: deployment/intro_to_deployment
+      - file: deployment/deploy_python_apps
+      - file: deployment/deploy_ml_apps
+
   - caption: Reference
     chapters:
       - file: reference/ai_domains
