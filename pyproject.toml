@@ -36,6 +36,7 @@ ollama = "^0.3.2"
 langchain = "^0.2.14"
 langchain-community = "^0.2.12"
 chromadb = "^0.5.5"
+python-fasthtml = "^0.4.5"
 
 
 [build-system]

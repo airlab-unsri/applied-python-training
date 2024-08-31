@@ -1140,6 +1140,23 @@ all = ["email-validator (>=2.0.0)", "fastapi-cli[standard] (>=0.0.5)", "httpx (>
 standard = ["email-validator (>=2.0.0)", "fastapi-cli[standard] (>=0.0.5)", "httpx (>=0.23.0)", "jinja2 (>=2.11.2)", "python-multipart (>=0.0.7)", "uvicorn[standard] (>=0.12.0)"]
 
 [[package]]
+name = "fastcore"
+version = "1.7.1"
+description = "Python supercharged for fastai development"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "fastcore-1.7.1-py3-none-any.whl", hash = "sha256:dc1f455878e603e5b72fae980282085b47958b620b76c0ea3fd59cd4693374ec"},
+    {file = "fastcore-1.7.1.tar.gz", hash = "sha256:102a9fc7711796581ab6dbdb4083c60080cb364a9d86eb3f0c54222aef4a6024"},
+]
+
+[package.dependencies]
+packaging = "*"
+
+[package.extras]
+dev = ["matplotlib", "nbclassic", "nbdev (>=0.2.39)", "numpy", "pandas", "pillow", "torch"]
+
+[[package]]
 name = "fastjsonschema"
 version = "2.20.0"
 description = "Fastest Python implementation of JSON schema"
@@ -1152,6 +1169,21 @@ files = [
 
 [package.extras]
 devel = ["colorama", "json-spec", "jsonschema", "pylint", "pytest", "pytest-benchmark", "pytest-cache", "validictory"]
+
+[[package]]
+name = "fastlite"
+version = "0.0.10"
+description = "A bit of extra usability for sqlite"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "fastlite-0.0.10-py3-none-any.whl", hash = "sha256:3a4a510fb411e39cda98111d32421838b02c3a0ccaa1c543393c22ddd9f4553d"},
+    {file = "fastlite-0.0.10.tar.gz", hash = "sha256:90f111dc30338b1bbc7461b767b23e207356227d968eac60b0e06d5242f7b593"},
+]
+
+[package.dependencies]
+fastcore = ">=1.7.1"
+sqlite-minutils = ">=3.37"
 
 [[package]]
 name = "filelock"
@@ -1992,6 +2024,17 @@ files = [
 
 [package.extras]
 colors = ["colorama (>=0.4.6)"]
+
+[[package]]
+name = "itsdangerous"
+version = "2.2.0"
+description = "Safely pass data to untrusted environments and back."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "itsdangerous-2.2.0-py3-none-any.whl", hash = "sha256:c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef"},
+    {file = "itsdangerous-2.2.0.tar.gz", hash = "sha256:e0050c0b7da1eea53ffaf149c0cfbb5c6e2e2b69c4bef22c81fa6eb73e5f6173"},
+]
 
 [[package]]
 name = "jedi"
@@ -4979,6 +5022,32 @@ files = [
 cli = ["click (>=5.0)"]
 
 [[package]]
+name = "python-fasthtml"
+version = "0.4.5"
+description = "The fastest way to create an HTML app"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "python-fasthtml-0.4.5.tar.gz", hash = "sha256:e3a8b1de9097f91097fbf6cd62cf4ff72f708738428f4ede5c69a2a110401f2c"},
+    {file = "python_fasthtml-0.4.5-py3-none-any.whl", hash = "sha256:ffb9d6ad1eedb5fcdada96d633a8fd4d9102693183360846f8b2e88b8c8b806d"},
+]
+
+[package.dependencies]
+beautifulsoup4 = "*"
+fastcore = ">=1.7.1"
+fastlite = ">=0.0.9"
+httpx = "*"
+itsdangerous = "*"
+oauthlib = "*"
+python-dateutil = "*"
+python-multipart = "*"
+starlette = ">0.33"
+uvicorn = {version = ">=0.30", extras = ["standard"]}
+
+[package.extras]
+dev = ["ipython", "lxml"]
+
+[[package]]
 name = "python-json-logger"
 version = "2.0.7"
 description = "A python library adding a json log formatter"
@@ -4988,6 +5057,20 @@ files = [
     {file = "python-json-logger-2.0.7.tar.gz", hash = "sha256:23e7ec02d34237c5aa1e29a070193a4ea87583bb4e7f8fd06d3de8264c4b2e1c"},
     {file = "python_json_logger-2.0.7-py3-none-any.whl", hash = "sha256:f380b826a991ebbe3de4d897aeec42760035ac760345e57b812938dc8b35e2bd"},
 ]
+
+[[package]]
+name = "python-multipart"
+version = "0.0.9"
+description = "A streaming multipart parser for Python"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "python_multipart-0.0.9-py3-none-any.whl", hash = "sha256:97ca7b8ea7b05f977dc3849c3ba99d51689822fab725c3703af7c866a0c2b215"},
+    {file = "python_multipart-0.0.9.tar.gz", hash = "sha256:03f54688c663f1b7977105f021043b0793151e4cb1c1a9d4a11fc13d622c4026"},
+]
+
+[package.extras]
+dev = ["atomicwrites (==1.4.1)", "attrs (==23.2.0)", "coverage (==7.4.1)", "hatch", "invoke (==2.2.0)", "more-itertools (==10.2.0)", "pbr (==6.0.0)", "pluggy (==1.4.0)", "py (==1.11.0)", "pytest (==8.0.0)", "pytest-cov (==4.1.0)", "pytest-timeout (==2.2.0)", "pyyaml (==6.0.1)", "ruff (==0.2.1)"]
 
 [[package]]
 name = "pytz"
@@ -6220,6 +6303,20 @@ postgresql-psycopg2cffi = ["psycopg2cffi"]
 postgresql-psycopgbinary = ["psycopg[binary] (>=3.0.7)"]
 pymysql = ["pymysql"]
 sqlcipher = ["sqlcipher3_binary"]
+
+[[package]]
+name = "sqlite-minutils"
+version = "3.37.0.post3"
+description = "A fork of sqlite-utils with CLI etc removed"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "sqlite-minutils-3.37.0.post3.tar.gz", hash = "sha256:d7f8db1581ef4e8e6d507ad8998f3c0ad574c507e36715818017108c0814a1e6"},
+    {file = "sqlite_minutils-3.37.0.post3-py3-none-any.whl", hash = "sha256:1990e1d44263914abcb23d8c87163925739b43110923d2263e383cabbb271cc3"},
+]
+
+[package.dependencies]
+fastcore = "*"
 
 [[package]]
 name = "stack-data"
@@ -7459,4 +7556,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "07be28dbd6ce215d35a6ad169c9902a1eaf05d6a817712d18b2ceda176fb072f"
+content-hash = "9401a73273bd6294e804b87bdd7c028df263940d9d46ddad622925b68050ae87"
